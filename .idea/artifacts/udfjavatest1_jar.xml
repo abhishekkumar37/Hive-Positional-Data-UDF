@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="udfjavatest1:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/udfjavatest1_jar</output-path>
-    <root id="archive" name="udfjavatest1.jar">
-      <element id="module-output" name="udfjavatest1" />
-      <element id="extracted-dir" path="$USER_HOME$/apache-hive-1.2.2-bin/lib/hive-exec-1.2.2.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
