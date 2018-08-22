@@ -46,18 +46,17 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 
 ### 1. Steps to run the code
 	
-1.1 The execution goal (which type of execution is desired - Only Train, Only Scoring or Training and Scoring), the parameters of each execution goal and the paths must be defined before executing any code in 'Train_score_params.py' as per the comments mentioned. The name of the .yml file should be specified in YAML.py in case of any changes </br>
-	
-1.2 Run the code 'Main.py' and obtain the outputs in the output path specified by the user in the 'Train_score_params.yml' according to the specified execution goal </br>
+<br> 1.1 The execution goal (which type of execution is desired - Only Train, Only Scoring or Training and Scoring), the parameters of each execution goal and the paths must be defined before executing any code in 'Train_score_params.py' as per the comments mentioned. The name of the .yml file should be specified in YAML.py in case of any changes </br>
+<br>1.2 Run the code 'Main.py' and obtain the outputs in the output path specified by the user in the 'Train_score_params.yml' according to the specified execution goal
 
 ### 2. Module Description
 
 2.1 Train_score_params - Train_score_params.yml file is used to define the following:
 
   i. Execution_goal
-  	a.Train           : 'TRAIN'
-  	b.Score           : 'SCORE'
-  	c.Train and Score : 'TRAIN_AND_SCORE'
+  	<br> a.Train           : 'TRAIN'
+  	<br> b.Score           : 'SCORE'
+  	<br> c.Train and Score : 'TRAIN_AND_SCORE'
 	
   ii. Paths
   	a. scoring_file_path - Specify the path where the scoring .las files are present for scoring
