@@ -95,7 +95,8 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 		
 	2.2 Main - The Main code calls all the defined modules and execute the code to obtain the results according to the execution goal defined
 			<br>Python file - Main.py
-			<br>Output - a. For execution goal 'Train' - Trained Models, Analytical Dataset, Predictions, Plots          
+			<br>Output:
+			<br>         a. For execution goal 'Train' - Trained Models, Analytical Dataset, Predictions, Plots          
 			<br>         b. For execution goal 'Score' - Scoring Dataset and Predictions          
 			<br>         c. For execution goal 'Train and Score' - Trained Models, Scoring Dataset and Predictions
 						
