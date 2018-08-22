@@ -9,16 +9,16 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 │───TGS Curve Predictions
 │───README.md
 └───product
-		│───Main.py
-		│───Analyse_results.py
-		│───Data_creation.py
-		│───Execution.py
-		│───Inputs.py	
-		│───Model_library.py
-		│───Plots.py
-		│───Predictions.py		
-		│───Train_score_params.py
-		│───YAML.py
+	│───Main.py
+	│───Analyse_results.py
+	│───Data_creation.py
+	│───Execution.py
+	│───Inputs.py	
+	│───Model_library.py
+	│───Plots.py
+	│───Predictions.py		
+	│───Train_score_params.py
+	│───YAML.py
 ```
 
 ## Prerequisites
@@ -44,12 +44,13 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 
 ## Description
 
-1. Steps to run the code
+### 1. Steps to run the code
 	
 	1.1 The execution goal (which type of execution is desired - Only Train, Only Scoring or Training and Scoring), the parameters of each execution goal and the paths must be defined before executing any code in 'Train_score_params.py' as per the comments mentioned. The name of the .yml file should be specified in YAML.py in case of any changes </br>
+	
 	1.2 Run the code 'Main.py' and obtain the outputs in the output path specified by the user in the 'Train_score_params.yml' according to the specified execution goal </br>
 
-2. Module Description
+### 2. Module Description
 
     2.1 Train_score_params - Train_score_params.yml file is used to define the following:
 
@@ -64,23 +65,23 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 			c. output_file_path - Specify the path where the predictions for each UWI and the scoring dataset are to be saved
 
 		iii. Parameters
-			a. 	dependent_variable - Enter the corresponding mnemonic to the curve as mentioned below that needs to be predicted 
+			a. dependent_variable - Enter the corresponding mnemonic to the curve as mentioned below that needs to be predicted 
 				Sonic       :['SON']
 				Gamma       :['GAM']
 				Resistivity :['RES']
 				Neutron     :['NEU']
-			b. 	independent_variables - Choose any combination among the following based on your scenario(One curve present/ Two curves present/ All curves present) and the respective curves available:
-				One curve present: 
-					Gamma
-					Resistivity
-					Neutron
-				Two curves present:
-					Gamma, Neutron
-					Gamma, Resistivity
-					Neutron, Resistivity
-				All curves present:
-					Gamma, Resistivity, Neutron
-			c.	Train_params:
+			b. independent_variables - Choose any combination among the following based on your scenario(One curve present/ Two curves present/ All curves present) and the respective curves available:
+			    One curve present: 
+			    	Gamma
+			    	Resistivity
+			    	Neutron
+			    Two curves present:
+			    	Gamma, Neutron
+			    	Gamma, Resistivity
+			    	Neutron, Resistivity
+			    All curves present:
+			    	Gamma, Resistivity, Neutron
+			c. Train_params:
 					Input_file_path
 					output_file_path
 					Train_csv
@@ -88,7 +89,7 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 					independent_variables
 					model_name
 					Model Parameters
-			d.	Scoring_params:
+			d. Scoring_params:
 					scoring_file_path
 					trained_model_path
 					output_file_path
