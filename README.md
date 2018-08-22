@@ -1,26 +1,40 @@
 # Missing Curve Prediction and Layers Identification
 
-The objective of this project is to predict the missing logs as a function of other logs. 
+The objective of this project is to predict the missing logs as a function of other logs. 
+
 The study of the pattern of the logs is instrumental in assessing the critical parameters of an oil well and thereby identifying the critical layers of hydrocarbon formation.
 
-## Folder Structure</br>
+## Folder Structure&lt;/br&gt;
 
 ```
+
 │───TGS Curve Predictions
-│───README.md
-└───product
-		│───Main.py
-		│───Analyse_results.py
-		│───Data_creation.py
-		│───Execution.py
-		│───Inputs.py	
-		│───Model_library.py
-		│───Plots.py
-		│───Predictions.py		
-		│───Train_score_params.py
-		│───YAML.py
-```
 
+│───README.md
+
+└───product
+
+│───Main.py
+
+│───Analyse_results.py
+
+│───Data_creation.py
+
+│───Execution.py
+
+│───Inputs.py
+
+│───Model_library.py
+
+│───Plots.py
+
+│───Predictions.py
+
+│───Train_score_params.py
+
+│───YAML.py
+
+```
 ## Prerequisites
 
 ```
