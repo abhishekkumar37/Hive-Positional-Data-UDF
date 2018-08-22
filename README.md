@@ -46,7 +46,7 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 
 ### 1. Steps to run the code
 	
-   <br>.1 The execution goal (which type of execution is desired - Only Train, Only Scoring or Training and Scoring), the parameters of each execution goal and the paths must be defined before executing any code in 'Train_score_params.py' as per the comments mentioned. The name of the .yml file should be specified in YAML.py in case of any changes
+   <br>1.1 The execution goal (which type of execution is desired - Only Train, Only Scoring or Training and Scoring), the parameters of each execution goal and the paths must be defined before executing any code in 'Train_score_params.py' as per the comments mentioned. The name of the .yml file should be specified in YAML.py in case of any changes
    <br>1.2 Run the code 'Main.py' and obtain the outputs in the output path specified by the user in the 'Train_score_params.yml' according to the specified execution goal
 
 ### 2. Module Description
@@ -64,12 +64,14 @@ The study of the pattern of the logs is instrumental in assessing the critical p
   	<br>c. output_file_path - Specify the path where the predictions for each UWI and the scoring dataset are to be saved
 
   iii. Parameters
+  
   	<br>a. dependent_variable - Enter the corresponding mnemonic to the curve as mentioned below that needs to be predicted 
   		<br>a.1 Sonic       :['SON']
   		<br>a.2 Gamma       :['GAM']
   		<br>a.3 Resistivity :['RES']
   		<br>a.4 Neutron     :['NEU']
-  	<br>b. independent_variables - Choose any combination among the following based on your scenario(One curve present/ Two curves present/ All curves present) and the respective curves available:
+  
+	<br>b. independent_variables - Choose any combination among the following based on your scenario(One curve present/ Two curves present/ All curves present) and the respective curves available:
 	    <br>b.1. One curve present: 
 	    	<br>b.1.1 Gamma
 	    	<br>b.1.2 Resistivity
@@ -80,6 +82,7 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 	    	<br>b.2.3 Neutron, Resistivity
 	    <br>b.3 All curves present:
 	    	<br>b.3.1 Gamma, Resistivity, Neutron
+
 	<br>c. Train_params:
 		<br>c.1 Input_file_path
 		<br>c.2 output_file_path
@@ -88,6 +91,7 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 		<br>c.5 independent_variables
 		<br>c.6 model_name
 		<br>c.7 Model Parameters
+	
 	<br>d. Scoring_params:
 		<br>d.1 scoring_file_path
 		<br>d.2 trained_model_path
