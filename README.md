@@ -53,7 +53,7 @@ The study of the pattern of the logs is instrumental in assessing the critical p
 
 2.1 Train_score_params - Train_score_params.yml file is used to define the following:
 
-  i. Execution_goal
+####  i. Execution_goal
    <br>a. Train           : 'TRAIN'
    <br>b. Score           : 'SCORE'
    <br>c. Train and Score : 'TRAIN_AND_SCORE'
